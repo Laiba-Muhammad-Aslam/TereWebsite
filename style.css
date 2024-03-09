@@ -11,3 +11,16 @@ div.right>button{
 .left>.text-box>p{
     color: #9E9DA2 ;
 }
+
+/* APPLY BUTTON  */
+
+.apply-btn{
+    /* border: 2px solid red; */
+    background-color: #75BF7A;
+}
+.apply-btn>.btns>input::placeholder{
+    font-size: 14px;
+}
+.apply-btn>.btns>button{
+    font-size: 14px;
+}
