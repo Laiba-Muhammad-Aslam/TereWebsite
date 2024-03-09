@@ -24,3 +24,11 @@ div.right>button{
 .apply-btn>.btns>button{
     font-size: 14px;
 }
+
+/* BENEFITS SECTION  */
+.benefits-section{
+    border: 2px solid teal;
+}
+.benefits-section>.row>h2>span{
+    color: #75BF7A;
+}
