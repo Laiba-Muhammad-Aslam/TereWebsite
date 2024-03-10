@@ -32,3 +32,11 @@ div.right>button{
 .benefits-section>.row>h2>span{
     color: #75BF7A;
 }
+.row{
+    border: 2px solid orangered;
+}
+.benefits-section>.row>.content-img>img{
+    width: 150px;
+    height: 150px;
+    border: 2px solid greenyellow;
+}
