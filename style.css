@@ -1,6 +1,9 @@
 .tere-color{
     color: #75BF7A;
 }
+.text-color{
+    color: #9E9DA2;
+}
 div.right>button{
     background-color: #75BF7A;
     color: #ffff;
@@ -29,7 +32,7 @@ div.right>button{
 }
 
 /* BENEFITS SECTION  */
-.benefits-section{
+/* .benefits-section{
     border: 2px solid teal;
 }
 .benefits-section>.row>h2>span{
@@ -42,11 +45,22 @@ div.right>button{
     width: 100px;
     height: 150px;
     border: 2px solid greenyellow;
-}
+} */
 /* .benefits-section span{
     
 } */
-
+.benefit-section img{
+    width: 250px;
+    height: 200px;
+    object-fit: contain;
+    /* border: 2px solid greenyellow; */
+}
+.row{
+    /* border: 2px solid orangered; */
+}
+.col{
+    border: 2px solid purple;
+}
 /* FOOTER SECTION  */
 .footer{
     border: 2px solid greenyellow;
