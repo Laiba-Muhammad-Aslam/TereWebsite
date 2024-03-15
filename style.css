@@ -24,11 +24,22 @@ div.right>button{
     /* border: 2px solid red; */
     background-color: #75BF7A;
 }
-.apply-btn>.btns>input::placeholder{
-    font-size: 14px;
+.apply-btn>.row>.col>input::placeholder{
+    font-size: 12px;
 }
-.apply-btn>.btns>button{
-    font-size: 14px;
+.apply-btn>.row>.col>input{
+    border-radius: 3px;
+}
+.apply-btn>.row>.col>button{
+    font-size: 12px;
+    border-radius: 3px;
+    
+}
+/* .apply-btn>.btns>button, .apply-btn>.btns>input::placeholder{
+    font-size: 12px !important;
+} */
+.apply-btn>.row>.col>p{
+    color: #fff;
 }
 
 /* BENEFITS SECTION  */
