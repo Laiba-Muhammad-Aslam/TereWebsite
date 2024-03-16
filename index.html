@@ -3,55 +3,46 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Tere Website</title>
     <link rel="stylesheet" href="bootstap.css" />
     <link rel="stylesheet" href="/font/gilroy-free.zip" />
     <link rel="stylesheet" href="style.css" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
   </head>
   <body>
     <!-- NAVBAR  -->
 
-    <!-- <nav
-      class="navbar container d-flex align-items-center justify-content-between border-bottom"
-    >
-      <div class="left">
-        <img src="/assests/logo.png" alt="Bootstrap" width="100" />
-      </div>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container">
+        <a class="navbar-brand" href="#"><img src="/assests/logo.png" alt="Bootstrap" width="100" /></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
 
-      <div
-        class="right d-flex align-items-center justify-content-between gap-5"
-      >
-        <ul
-          class="d-flex align-items-center justify-content-between gap-5 list-unstyled"
-        >
-          <li>Home</li>
-          <li>How tere works</li>
-          <li>Tere benefits</li>
-        </ul>
-        <button class="border-0">Help Center</button>
-      </div>
-    </nav> -->
+            <li class="nav-item mx-4">
+            <a class="nav-link active" aria-current="page" href="#">How tere works</a>
+          </li>
 
-    <div class="container p-3 border ">
-      <div class="row d-flex align-items-center justify-content-between">
-        <div class="col col-sm-6 col-md-6 col-lg-6">
-          <img src="/assests/logo.png" alt="Bootstrap" width="100" />
-        </div>
-        <div class="col d-flex align-items-center justify-content-center d-none d-sm-none d-md-none d-lg-block">
-          <ul class="d-flex list-unstyled gap-5 align-items-center justify-content-center">
-            <li>Home</li>
-            <li>How tere works</li>
-            <li>Tere benefits</li>
-            <li class="border px-3 py-2 text-white tere-background rounded">Help Center</li>
-          </ul>
-          <!-- <button class="border-0 px-3 py-2 mx-3">Help Center</button> -->
+          <li class="nav-item mx-4">
+            <a class="nav-link active" aria-current="page" href="#">Tere benefits</a>
+          </li>
+          <form class="d-flex justify-content-center" role="search">
+          <button class="theme-btn border-0 tere-background" type="submit">Help Center</button>
+          </form>
         </div>
       </div>
-    </div>
+    </nav>
+
+    <!-- END OF NAVBAR -->
 
     <!-- MAIN SECTION  -->
 
-    <!-- <div class="container first-section d-flex align-items-center justify-content-center">
+    <div class="container first-section d-flex align-items-center justify-content-center">
       <div class="row flex-column-reverse flex-sm-column-reverse flex-md-row flex-lg-row">
         <div class="col col-sm-12 col-md-6 col-lg-6  p-5 
         ">
@@ -69,11 +60,11 @@
           <img src="/assests/main-img.png" alt="" width="350">
         </div>
       </div>
-    </div> -->
+    </div>
 
     <!-- APPLY BUTTON  -->
 
-    <!-- <div class="apply-btn container p-3 px-5 rounded ">
+    <div class="apply-btn container p-3 px-5 rounded mt-5">
       <div class="row d-flex align-items-center justify-content-around flex-column flex-sm-column
       flex-md-row flex-lg-row">
         <div class="col mt-3"><p>Let's go. Get a link <br>
@@ -91,62 +82,82 @@
           </button>
         </div>
       </div>
-    </div> -->
+    </div>
 
     <!-- APPLY BUTTON END -->
 
     <!-- BENEFITS SECTION -->
 
-    <!-- <div class="container benefit-section mt-5 mb-5">
+    <div class="container benefit-section mt-5 mb-5">
       <h1 class="text-center"><span class="tere-color">TERE</span> BENEFITS</h1>
 
       <div class="row d-flex align-items-center justify-content-between mt-5">
-        <div class="col-sm-12 col-md-6 col-lg-4 offset-1">
-          <div class="headings d-flex align-items-center justify-content-center gap-4 ">
+        <div class="col-sm-12 col-md-4 col-lg-4 offset-lg-1">
+          <div
+            class="headings d-flex align-items-center justify-content-center gap-4 o-1"
+          >
             <h1 class="tere-color">01.</h1>
             <h3>Flexible working hours</h3>
           </div>
-          <p class="text-color">You can decide when, and how much time you want to drive.</p>
+          <div class="o-3">
+            <p class="text-color">
+              You can decide when, and how much time you want to drive.
+            </p>
+          </div>
         </div>
-        <div class="col-sm-12 col-md-6 col-lg-4 offset-2 ">
-          <img src="/assests/Frame.png" alt="" />
+        <div class="col-sm-12 col-md-4 col-lg-4 offset-lg-2 o-2">
+          <img src="/assests/Frame.png" alt="working-hours" />
         </div>
       </div>
 
       <div class="row d-flex align-items-center justify-content-between mt-5">
-        <div class="col-sm-12 col-md-6 col-lg-4 offset-2">
-          <img src="/assests/Frame (2).png" alt="" />
+        <div class="col-sm-12 col-md-4 col-lg-4 offset-lg-2 o-2">
+          <img src="/assests/Frame (2).png" alt="Earnings" />
         </div>
 
-        <div class="col-sm-12 col-md-6 col-lg-4 offset-2">
-          <div class="headings d-flex align-items-center justify-content-center gap-4">
+        <div class="col-sm-12 col-md-4 col-lg-4 offset-lg-2">
+          <div
+            class="headings d-flex align-items-center justify-content-center gap-4 o-1"
+          >
             <h1 class="tere-color h1">02.</h1>
-            <h3>Earnings </h3>
+            <h3>Earnings</h3>
           </div>
-          <p class="text-color">By driving with tere you can 
-            earn more.</p>
-        </div>
-      </div>
-     
 
-      <div class="row d-flex align-items-center justify-content-between mt-5 ">
-        <div class="col-sm-12 col-md-6 col-lg-4 offset-1">
-          <div class="headings d-flex align-items-center justify-content-center gap-4 ">
-            <h1 class="tere-color">03.</h1>
-            <h3>Customer 
-              support 24/7</h3>
+          <div>
+
+            <p class="text-color o-3">By driving with tere you can earn more.</p>
           </div>
-          <p class="text-color">Tere is a local service provider and we are proud to support you in your local language. We are proud to be at your service 24/7!</p>
-        </div>
-        <div class="col-sm-12 col-md-6 col-lg-4 offset-2">
-          <img src="/assests/Frame (1).png" alt="" />
         </div>
       </div>
-    </div> -->
+
+      <div class="row d-flex align-items-center justify-content-between mt-5">
+        <div class="col-sm-12 col-md-4 col-lg-4 offset-lg-1">
+          <div
+            class="headings d-flex align-items-center justify-content-center gap-4 o-1"
+          >
+            <h1 class="tere-color">03.</h1>
+            <h3>Customer support 24/7</h3>
+          </div>
+
+          <div>
+
+            <p class="text-color o-3">
+              Tere is a local service provider and we are proud to support you in
+              your local language. We are proud to be at your service 24/7!
+            </p>
+
+          </div>
+         
+        </div>
+        <div class="col-sm-12 col-md-4 col-lg-4 offset-lg-2 o-2">
+          <img src="/assests/Frame (1).png" alt="support" />
+        </div>
+      </div>
+    </div>
 
     <!-- FOOTER SECTION  -->
 
-    <!-- <footer
+    <footer
       class="footer container  d-flex align-items-center justify-content-center flex-column mt-5"
     >
       <div class="row  d-flex align-items-center justify-content-center flex-column-reverse flex-sm-column-reverse flex-md-column-reverse flex-lg-row">
@@ -169,7 +180,7 @@
         </div>
       </div>
       <p>All Rights Reserved tere by Codematics 2022</p>
-    </footer> -->
+    </footer>
 
     <!-- FOOTER SECTION END -->
   </body>
